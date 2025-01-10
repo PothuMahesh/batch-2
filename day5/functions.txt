@@ -18,5 +18,9 @@ types of functions
 3.function expression:- an anoymous function body is assigned as a value to a variable  and same function will be invoked with the same variable
 4.IIFE(immediate invoke function expression) :- it can be invoked only one time
 5.Arrow function :- it concise the normal function syntax
-6.Higher order function
-7.callback function 
+6.Higher order function:-
+  -higher order function is a function which accepts another function as an argument
+7.callback function  
+   -callback function is a function which is passed as argument to another function
+
+

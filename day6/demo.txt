@@ -1,0 +1,2 @@
+closure:- closure is a memory created when functions are bundled together or nested each other by giving accessibility
+to the innermost function to the variables 
