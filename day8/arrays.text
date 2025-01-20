@@ -1,0 +1,23 @@
+Arrays:
+-it is a non primitive data type
+-Array is used to store multiple values in a same variable
+
+forEach(): it is used to iterate the values
+ -it returns "undefined"
+
+ create array of objects
+ **************************
+
+ what is object?
+ -object is an entity which contains states and behaviours
+ -states- properties, behavior -functionality. 
+ -object is an entity to store the value in the form of key value pairs
+
+ syntax:  let obj={};
+ex:    let userdetails={
+       name: "Sam",
+       age:23
+}
+
+ Note: javascript is mainly object based  language till 2015(es6)
+ -after ex6 feature they added oops concept
