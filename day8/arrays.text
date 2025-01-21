@@ -21,3 +21,47 @@ ex:    let userdetails={
 
  Note: javascript is mainly object based  language till 2015(es6)
  -after ex6 feature they added oops concept
+
+
+ JSON
+ *****
+ -Json stands for javascript object notation
+ -Json is a javascript technique used to transfer the data from server to client and client to server
+
+js object
+*********
+let a={
+       name:"Mahesh",
+       age:20
+}
+
+json object*
+***********
+{
+       "name":"Mahesh",
+       "age":20
+}
+
+json.stringify :- to covert javascript to json
+json.parse :- to convert json to javascript
+
+
+Asynchronous in javascript
+**************************
+-to perform multiple taskes at same time
+
+1.setTimeout(): it is a web api used to perform asynce operations with certain Timeout
+suntax: setTimeout(callbackfun, timeout)
+
+2.setInterval(): is a web api used to perform async operation at every setInterval
+syntax: setInterval(callbackfun,timeout)
+
+3.promise: promise is an object which represents eventual completion
+             states of promise
+             1.pending states
+             2.fulfilled state 
+             3.rejected state
+4.ayncs & await
+
+
+note: javascript is by default synchronous
