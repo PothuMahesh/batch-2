@@ -61,6 +61,14 @@ syntax: setInterval(callbackfun,timeout)
              1.pending states
              2.fulfilled state 
              3.rejected state
+syntax: let x=new promise((resolve, reject)=>{});
+
+to execute the promise we have instance methods
+1.then() :
+2. Cathch():
+3. finally():
+
+
 4.ayncs & await
 
 
