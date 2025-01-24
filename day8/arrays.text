@@ -70,6 +70,30 @@ to execute the promise we have instance methods
 
 
 4.ayncs & await
+async: async keyword converts the synchronous function into asynchronous function
+
+await: await keyword waits util a promise completes
 
 
 note: javascript is by default synchronous
+
+
+
+DOM
+****
+DOM stands for document object model
+DOM is a wev api that is used to manipulate the html content
+DOM is used to add , remove, update the content in the html document
+DOM methods
+************
+document.getElementById("") : it is used to select html element based ob id attribute value.
+                                   with id attribute we can select only one element
+document.getElementByClassName("")
+document.getElementsByTagName("")
+document.getElementsByName("")
+document.querySelector("")
+document.querySelecterAll()
+
+Events in DOM
+**************
+-events is nothing but am action
