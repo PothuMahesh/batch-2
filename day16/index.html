@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="2" cellpadding="10px" cellspacing="0px">
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>name</th>
+                <th>company</th>
+                <th>salary</th>
+                <th>city</th>
+                <th>area</th>
+            </tr>
+        </thead>
+        <tbody id="store">
+            
+        </tbody>
+    </table>
+    
+    <script>
+        let employees=[
+    {
+        empId: 101,
+        empName: "Mahesh",
+        empCompany: "Google",
+        empSalary: 90000,
+        empAddress: { empCity: "Hyderabad", 
+            Area: "Kompally" }
+    },
+    {
+        empId: 101,
+        empName: "sandeep",
+        empCompany: "Microsoft",
+        empSalary: 90000,
+        empAddress: { empCity: "Hyderabad", 
+            Area: "KPHB" }
+    },
+    {
+        empId: 101,
+        empName: "Arjun",
+        empCompany: "Google",
+        empSalary: 90000,
+        empAddress: { empCity: "Mahabubnagar", 
+            Area: "Bahadurpally" }
+    },
+    {
+        empId: 101,
+        empName: "Srinivas",
+        empCompany: "HCL",
+        empSalary: 90000,
+        empAddress: { empCity: "Hyderabad", 
+            Area: "Bahadurpally" }
+    },
+    {
+        empId: 101,
+        empName: "Varun",
+        empCompany: "TCS",
+        empSalary: 90000,
+        empAddress: { empCity: "Hyderabad",
+             Area: "Kompally" }
+    }
+];
+
+    employees.map(user=>{
+        let store=document.getElementById("store");
+        store.innerHTML+=`
+            <tr>
+                <td>${emp.empId}</td>
+                <td>${emp.empName}</td>
+                <td>${emp.empCompany}</td>
+                <td>${emp.empSalary}</td>
+                <td>${emp.empAddress.empCity}</td>
+                <td>${emp.empAddress.Area}</td>
+            </tr>
+        `
+
+    })
+    </script>
+</body>
+</html>

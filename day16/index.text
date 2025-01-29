@@ -1,0 +1,3 @@
+Take array of objects where each object contains empId, empName, empCompany,empSalary, empAddress
+ where empAddress further contains an object which includes two properties such as empCity, Area.
+ display all these employee datas on the UI in the form of the table through javaScript.
